@@ -11,6 +11,9 @@ body {
     align-items: center;
     padding: 60px 100px;
 }
+
+
+/* Left Column Styles */
  .navigation-wrapper > .left-column{
     display: flex;
     align-items: center;     
@@ -29,12 +32,11 @@ body {
 .navigation-wrapper > .left-column > .hours-phone-wrapper > .hours {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
+/* Center Column Styles */
  .link-wrapper > .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white ;
-}
-.right-column > .address-wrapper {
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 .navigation-wrapper > .center-column{
     display:grid;
@@ -65,6 +67,38 @@ body {
     transition: 0.5s;
 }
 .link-wrapper > .nav-link a:hover {
-    color:rgb(173, 173, 7);
+    color:#ceb135;
     letter-spacing: 2px;    
 }
+/* Right Column Styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+.right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;    
+}
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+.navigation-wrapper > .right-column > .address-wrapper a {
+    text-decoration: none;
+    color:#858585;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color:#ceb135;
+    
+}
+ .navigation-wrapper > .right-column > .contact-icon a {
+    color:#cbcbcb;
+    transition: 0.5s;
+ }
+ .navigation-wrapper > .right-column > .contact-icon a:hover {
+    color:#ceb135;
+ }
+
+
