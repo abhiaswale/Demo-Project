@@ -29,4 +29,26 @@ h1,h2,h3,h4,h5,h6 {
     transform-origin: top left;
 }
 
+.skewed-header >.skewed-header-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.skewed-header >.skewed-header-wrapper > .skewed-header-content{
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skewed-header >.skewed-header-wrapper > .skewed-header-content > .heading-content{
+    background-color: #ceb135;
+    color: #11122b;
+    width: 170px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+    padding:10px;
+}
+
 
