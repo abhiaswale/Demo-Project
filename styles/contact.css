@@ -1,0 +1,20 @@
+.contact-grid {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.contact-grid > .company-metadata > .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact-grid > .company-metadata >.company-details{
+    font-family: "Ubuntu Condensed",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 1.25em;
+}
